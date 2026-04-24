@@ -12,7 +12,7 @@ The dashboard highlights key metrics such as employee count, attrition rate, sal
 
 The goal is to help organizations make **data-driven HR decisions**.
 
-(https://github.com/Fizza232/HR_Analytics_Dashboard/blob/19557bfc69d357e1b49e3705914a6dd027f88102/HR%20Analaytics%20Dashboard.pdf)
+
 
 ---
 
