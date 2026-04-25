@@ -1,82 +1,105 @@
-# 📊 HR Analytics Dashboard
+# HR Analytics Dashboard
 
-An interactive HR Analytics Dashboard built using **Power BI** to analyze employee attrition, salary distribution, and workforce demographics.
-The dashboard provides insights that help HR teams understand employee behavior and improve retention strategies.
+**Type:** Data Analytics Project | **Tool:** Power BI
 
----
+An interactive Power BI dashboard built to analyze employee attrition, salary distribution, and workforce demographics, enabling data-driven HR decision-making.
 
-# 📌 Project Overview
+Designed as a portfolio project to demonstrate data analysis, visualization, and business insight generation skills.
 
-This project analyzes HR data to identify patterns in employee attrition and workforce characteristics.
-The dashboard highlights key metrics such as employee count, attrition rate, salary distribution, and job role analysis.
+## Objective
 
-The goal is to help organizations make **data-driven HR decisions**.
+To identify key drivers of employee attrition and provide actionable insights that help improve retention, optimize compensation, and understand workforce composition.
 
-<img width="890" height="510" alt="Image" src="https://github.com/user-attachments/assets/f60f260a-c0f7-49b0-b2b8-e63344cee449" />
+## Dashboard Preview
 
----
-
-# 📂 Dataset
-
-The dataset contains employee information including:
-
-* Employee demographics
-* Job roles
-* Salary slabs
-* Education levels
-* Years at company
-* Attrition status
-
-File included:
-
-* **HR_Analytics.csv**
+![HR Analytics Dashboard](https://github.com/user-attachments/assets/f60f260a-c0f7-49b0-b2b8-e63344cee449)
 
 ---
 
-# 📊 Dashboard Features
+## Dataset
 
-The dashboard provides the following insights:
+* `HR_Analytics.csv` — Employee-level dataset containing:
 
-### 1️⃣ Workforce Overview
+  * Demographics (Age, Gender, Education)
+  * Job details (Department, Role, Salary Slab)
+  * Tenure (Years at Company)
+  * Attrition status
 
-* Total Employees
-* Attrition Count
-* Attrition Rate
-* Average Age
-* Average Salary
-* Average Years at Company
+---
 
-### 2️⃣ Attrition Analysis
+## Tools & Technologies
 
-* Attrition by Education
-* Attrition by Age Group
-* Attrition by Job Role
-* Attrition by Salary Slab
+* **Power BI** — Data visualization & dashboard development
+* **Power Query** — Data cleaning & transformation
+* **DAX** — KPI calculations (Attrition Rate, Average Metrics, Role-wise Analysis)
+* **CSV** — Data source
 
-### 3️⃣ Employee Demographics
+---
+
+## Key Features
+
+**Workforce Overview**
+
+* Total Employees, Attrition Count & Rate
+* Average Age, Salary, and Tenure
+
+**Attrition Analysis**
+
+* By Age Group (highest in 26–35)
+* By Salary Slab (majority below 5K)
+* By Education & Job Role
+* By Years at Company (early attrition trend)
+
+**Employee Demographics**
 
 * Gender distribution
-* Department distribution
-* Years at company analysis
+* Department-level filtering
+* Job role vs satisfaction analysis
 
 ---
 
-# 🛠 Tools & Technologies
+## Key Insights
 
-* **Power BI Desktop**
-* Data Cleaning & Transformation
-* Data Visualization
-* HR Analytics
+* Overall attrition rate: **17%** across 1,312 employees
+* Highest attrition in the **26–35 age group** (115 out of 223 employees)
+* **161 out of 223 attritions (72%)** occur in the below-5K salary slab
+* Significant drop-off within the **first year** of employment
+* Roles most affected: **Laboratory Technician (61)** and **Sales Executive (52)**
+
+---
+
+## Business Impact
+
+This dashboard enables HR teams to:
+
+* Identify high-risk employee segments
+* Take proactive retention measures
+* Improve workforce planning and compensation strategies
 
 ---
 
-# 📈 Key Insights
+## How to Use
 
-Some important insights from the dashboard:
-
-* Attrition rate is **17%**
-* Most attrition occurs in the **26–35 age group**
-* **Laboratory Technicians and Sales Executives** show the highest attrition
-* Employees earning **below 5k salary slab** have the highest attrition
+1. Download the `.pbix` file from this repository
+2. Open in **Power BI Desktop** (free download at [powerbi.microsoft.com](https://powerbi.microsoft.com))
+3. The dashboard loads with all data pre-connected — no additional setup required
+4. Explore filters (Department, Role, etc.) at the top to slice all visuals
+5. Hover over any chart for detailed tooltips
+6. To use your own data, go to **Home → Transform Data** and replace the source with your own `HR_Analytics.csv`
 
 ---
+
+## Project Structure
+
+```
+HR_Analytics_Dashboard/
+├── HR_Analytics_Dashboard.pbix     # Power BI dashboard file
+├── HR_Analytics.csv                # Source dataset
+└── HR_Analytics_Dashboard.pdf      # Static dashboard export (preview)
+```
+
+---
+
+## Author
+
+**Fizza Shabbir** — [LinkedIn](https://linkedin.com/in/fizzashabbir) | [GitHub](https://github.com/Fizza232)
